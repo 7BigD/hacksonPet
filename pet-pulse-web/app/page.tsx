@@ -16,7 +16,8 @@ export default function PetMagic() {
         formData.append('file', file);
         formData.append('mode', mode);
 
-        const res = await fetch('${API_URL}/generate', {
+        console.log("正在请求后端地址:", `${API_URL}/generate`);
+        const res = await fetch(`${API_URL}/generate`, {
             method: 'POST',
             body: formData,
         });
