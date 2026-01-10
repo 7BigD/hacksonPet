@@ -1,0 +1,31 @@
+# --- 后端 (Python) ---
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/.pytest_cache
+backend/pip-log.txt
+backend/pip-delete-this-directory.txt
+
+# --- 前端 (Next.js) ---
+pet-pulse-web/node_modules/
+pet-pulse-web/.next/
+pet-pulse-web/out/
+pet-pulse-web/build/
+pet-pulse-web/.env*.local
+pet-pulse-web/npm-debug.log*
+pet-pulse-web/yarn-debug.log*
+pet-pulse-web/yarn-error.log*
+
+# --- 系统文件 ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- 密钥 (极其重要) ---
+.env
+.env.local
