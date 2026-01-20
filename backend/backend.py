@@ -82,7 +82,7 @@ def call_seedream_api(main_image_base64: str, style_image_base64: str, main_cont
         "shallow depth of field, bokeh effect, warm tones, "
         "high quality, professional photography, 85mm lens, f/1.8 aperture, "
         "cinematic color grading"
-    )s
+    )
     
     # Use lower strength to preserve facial features better
     # 0.4-0.5 recommended for portraits to maintain identity
